@@ -1,4 +1,4 @@
-# Module 6 - Problem Set No. 8 Problem 3
+# Module 6 - Problem Set No. 9 Problem 3
 
 ## Cube that List Please
 
