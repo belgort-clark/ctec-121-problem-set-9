@@ -1,0 +1,15 @@
+# Module 6 - Problem Set No. 9 Problem 1
+
+## Random Student Generator
+
+Build a Python program that uses **a list of 19 students**, shuffles the list 20,000 times and then displays the list of shuffled students.
+
+**Hints:** Use the Python.org site to research built-in random and list functions you can use to help solve this problem. Also, the shuffle() function shuffles in-place. No new variable is required.
+
+You must code your solution using both a main() function and one named shuffleStudents(). When you output each of the individual students, number them starting at 1.
+
+Here's a list of the students in our class to get you started:
+
+```
+students = ["Jason","Josh","Kalina","Patrick","Sam","Rachel","Quinn H.","Brandon","Robin","Jeremy","Wayne","Connor","Chris","Fred","Jacob","McGuire","Quinn C.","Drake","Eugene"]
+```
