@@ -8,8 +8,8 @@ Build a Python program that uses **a list of 19 students**, shuffles the list 20
 
 You must code your solution using both a main() function and one named shuffleStudents(). When you output each of the individual students, number them starting at 1.
 
-Here's a list of the students in our class to get you started:
+Here's a list of random student names to get you started:
 
-```
+```Python
 students = ["Jason","Josh","Kalina","Patrick","Sam","Rachel","Quinn H.","Brandon","Robin","Jeremy","Wayne","Connor","Chris","Fred","Jacob","McGuire","Quinn C.","Drake","Eugene"]
 ```
