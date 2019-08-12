@@ -15,7 +15,6 @@
 9. Store all of the passwords you generate in a file named passwords.txt.
 10. Make sure you don't overwrite data in this file.
 11. Your program should also ask the user how many times they want to run the password generator and then loop that many times to generate passwords.
-12. Show the program running for 4 different password lengths.
 
 [Here is a video](https://youtu.be/BQRWnjK3tO4) I made a few quarters ago for a different assignment that shows the output of this problem.
 
