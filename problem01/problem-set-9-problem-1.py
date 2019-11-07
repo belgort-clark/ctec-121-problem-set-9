@@ -3,13 +3,14 @@
 
 import string
 
+
 def generatePassword(passwordLength):
     # string contained all of the possible characters
-    possiblePasswordChars = string.ascii_letters() + string.digits +  '*/?-&'
-    
+    possiblePasswordChars = string.ascii_letters + string.digits + '*/?-&'
+
     password = ''
     for i in range(passwordLength):
-        randomNumber = random.randrane(0,len(possiblePasswordChars) -1)
+        randomNumber = random.randrane(0, len(possiblePasswordChars) - 1)
         # get a single character from the string using hte randomNumber generated
 
         # use accumulator pattern to create new password
@@ -17,15 +18,17 @@ def generatePassword(passwordLength):
     # send the password back to the caller
     return password
 
+
 def main():
-    
+
     # open the file to store passwords in for append
-    passwordFile = ('passwords.txt','a')
+    passwordFile = ('passwords.txt', 'a')
     # how many password to generate
-    numPasswords = int(input('Number of passwords would you like to generate: '))
+    numPasswords = int(
+        input('Number of passwords would you like to generate: '))
     # desired length of password
     pwLength = int(input('Desired password length: '))
-    
+
     for i in range(numPasswords):
         # Write code to ensure pwLength is between 8 and 42 inclusively
         # your code here
@@ -37,5 +40,6 @@ def main():
 
     # close the file
     passwordFile.close()
+
 
 main()
