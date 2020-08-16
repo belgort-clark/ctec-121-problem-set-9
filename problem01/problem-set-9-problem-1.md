@@ -2,7 +2,7 @@
 
 ## Random Password Generator
 
-**NOTE:** To help you out I created a lot of the code to help you get started. You are welcome :-)
+**NOTE:** To help you out I created a lot of the code to help you get started.
 
 1. Generates a random password
 2. Uses functions

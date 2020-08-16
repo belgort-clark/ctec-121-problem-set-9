@@ -12,7 +12,7 @@ def generatePassword(passwordLength):
     password = ''
     for i in range(passwordLength):
         randomNumber = randrange(0, len(possiblePasswordChars) - 1)
-        # get a single character from the string using hte randomNumber generated
+        # get a single character from the string using the randomNumber generated
 
         # use accumulator pattern to create new password
 
@@ -29,8 +29,7 @@ def main():
     # desired length of password
     pwLength = int(input('Desired password length: '))
 
-    # Write code to ensure pwLength is between 8 and 42 inclusively
-    # your code here
+    # Ensure pwLength is between 8 and 42 inclusively
     # if password is between 8 and 42 then call the generatePassword() function
     if pwLength >= 8 and pwLength <= 42:
         for i in range(numPasswords):
